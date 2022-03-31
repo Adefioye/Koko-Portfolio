@@ -11,6 +11,7 @@ const Navbar = () => {
 
   const navTabs = ["home", "about", "work", "skills", "contact"];
 
+  
   return (
     <nav className="app__navbar">
       {/* Logo section */}

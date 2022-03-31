@@ -4,11 +4,11 @@ import {
   About,
   Footer,
   Header,
-  Navbar,
   Skills,
   Testimonial,
   Work,
-} from "./components";
+} from "./container";
+import { Navbar } from "./components";
 import "./App.scss";
 
 const App = () => {
@@ -26,3 +26,4 @@ const App = () => {
 };
 
 export default App;
+
