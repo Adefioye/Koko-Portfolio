@@ -12,7 +12,13 @@ const Work = () => {
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
 
-  const creativeWorks = ["UI/UX", "Web App", "Mobile App", "React JS", "All"];
+  const creativeWorks = [
+    "React Apps",
+    "Node Apps",
+    "HTML & CSS Apps",
+    "Data & ETL Projects",
+    "All",
+  ];
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);

@@ -18,8 +18,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I know that <span>Good Design</span> <br />
-        mean <span>Good Business</span>
+        I believe <span>Customer-oriented Development</span> <br />
+        is <span>Profitable Business</span>
       </h2>
 
       <div className="app__profiles">
